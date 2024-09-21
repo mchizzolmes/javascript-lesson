@@ -1,5 +1,14 @@
 // Computer Tic-Tac-Toe
 
+let humanChoice;
+
+function getHumanChoice () {
+    humanChoice = window.prompt("Rock, Paper, or Scissors?");
+}
+
+getHumanChoice();
+console.log(`You picked: ${humanChoice}`);
+
 let computerChoice;
 
 function getComputerChoice () {
